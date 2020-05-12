@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,12 +22,68 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>Tic Tac Toe</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#button").click(function () {
+        location.reload(true);
+      });
+    });
+  </script>
+  <style media="screen">
+    .possition {
+      padding-right: 50px;
+
+    }
+
+    #startmsg {
+      display: none;
+    }
+
+    #player {
+      display: none;
+      color: rgb(0, 162, 255);
+    }
+
+    #player div {
+      margin-top: 20px;
+      display: block;
+    }
+
+    #root {
+      display: none;
+    }
+
+    #id {
+      color: rgb(250, 0, 137);
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <div>
+    <div id="id">
+      <h2>Enter Your Name To Start The Game</h2>
+    </div>
+    <form class="" action="index.html" method="post">
+      <input id="player1" type="text" name="" placeholder="player1">
+      <input id="player2" type="text" name="" placeholder="player2">
+      <button style="--content: 'Start';" type="button" class=" btn-primary" onClick="showPlayer()" name="button">
+        <div class="left"></div>
+        Start
+        <div class="right"></div>
+      </button>
+    </form>
+  </div>
+
+  <div id="player"></div>
+
+  <div id="root">
+  </div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -39,5 +93,32 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+
+  <script type="text/javascript">
+    function showPlayer() {
+      document.getElementById('player').style.display = 'inline';
+      showGame();
+      this.jumpTo(0)
+
+
+
+    }
+    function showGame() {
+      document.getElementById('root').style.display = 'inline';
+      formMsg();
+
+
+    }
+    function formMsg() {
+      document.getElementById('formmsg').style.display = 'none';
+
+
+    }
+    function startMsg() {
+
+    }
+
+  </script>
+</body>
+
 </html>
