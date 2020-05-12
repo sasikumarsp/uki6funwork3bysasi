@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sasikumarsp/uki6funwork3bysasi.git/static/css/main.a2373efb.chunk.css",
+    "main.js": "/sasikumarsp/uki6funwork3bysasi.git/static/js/main.2a1bb790.chunk.js",
+    "main.js.map": "/sasikumarsp/uki6funwork3bysasi.git/static/js/main.2a1bb790.chunk.js.map",
+    "runtime-main.js": "/sasikumarsp/uki6funwork3bysasi.git/static/js/runtime-main.57ad7935.js",
+    "runtime-main.js.map": "/sasikumarsp/uki6funwork3bysasi.git/static/js/runtime-main.57ad7935.js.map",
+    "static/js/2.33ea0943.chunk.js": "/sasikumarsp/uki6funwork3bysasi.git/static/js/2.33ea0943.chunk.js",
+    "static/js/2.33ea0943.chunk.js.map": "/sasikumarsp/uki6funwork3bysasi.git/static/js/2.33ea0943.chunk.js.map",
+    "index.html": "/sasikumarsp/uki6funwork3bysasi.git/index.html",
+    "precache-manifest.e060ce36d9976c057d4fcd7e01db85f6.js": "/sasikumarsp/uki6funwork3bysasi.git/precache-manifest.e060ce36d9976c057d4fcd7e01db85f6.js",
+    "service-worker.js": "/sasikumarsp/uki6funwork3bysasi.git/service-worker.js",
+    "static/css/main.a2373efb.chunk.css.map": "/sasikumarsp/uki6funwork3bysasi.git/static/css/main.a2373efb.chunk.css.map",
+    "static/js/2.33ea0943.chunk.js.LICENSE.txt": "/sasikumarsp/uki6funwork3bysasi.git/static/js/2.33ea0943.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/sasikumarsp/uki6funwork3bysasi.git/static/media/DeathbloodAcademy-MgBn.fdaeb026.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57ad7935.js",
+    "static/js/2.33ea0943.chunk.js",
+    "static/css/main.a2373efb.chunk.css",
+    "static/js/main.2a1bb790.chunk.js"
+  ]
+}
